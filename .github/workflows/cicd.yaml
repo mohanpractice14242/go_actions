@@ -1,0 +1,20 @@
+nam: deplpyign the go file 
+
+on: 
+  push: 
+    branches: 
+      - main 
+    paths-ignore: 
+      - 'READEME.md'
+jobs: 
+  build: 
+    runs-on: ubuntu-latest 
+
+    steps: 
+      - name: checkout the repository 
+        uses: actions/checkout@v4
+      - name: setup the go 1.22 
+        uses: actions/setup-go@v2
+        with: 
+          go-version: 1.22 
+      
