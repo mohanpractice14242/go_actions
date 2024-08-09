@@ -22,4 +22,6 @@ jobs:
       - name: checkout the test cases 
         run: 
           git clone https://github.com/mohantest14242/go_testing.git
+      - name: displaying the all testcases along with the testcases 
+        run: ls 
       
