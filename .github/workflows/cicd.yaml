@@ -19,4 +19,7 @@ jobs:
           go-version: 1.22 
       - name: displaying the all files and folders in repository 
         run: ls 
+      - name: checkout the test cases 
+        run: 
+          git clone https://github.com/mohantest14242/go_testing.git
       
