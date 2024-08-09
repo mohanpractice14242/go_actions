@@ -41,6 +41,8 @@ jobs:
         git clone https://github.com/mohantest14242/go_testing.git
     - name: displayin the all files 
       run: ls
-  
+    - name: peerforming the testcases 
+      run: 
+        go test go_testing/
 
       
